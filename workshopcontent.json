@@ -448,11 +448,25 @@
     "timestamp": 1763219481
   },
   {
+    "id": "3604633560",
+    "name": "Dracula Room",
+    "imageUrl": "https://images.steamusercontent.com/ugc/14469131041944612956/0A773F81A06CB3C0D31D656D1D040EA4372B08B5/",
+    "downloadUrl": "https://es2.rustbeard.com/releases/3604633560/3604633560.zip",
+    "timestamp": 1762985683
+  },
+  {
     "id": "3607358253",
     "name": "Dracula's Chapel",
     "imageUrl": "https://images.steamusercontent.com/ugc/11630826446605483719/F7A89D5D1302A68720DA6FA922596A6E76DBC25D/",
     "downloadUrl": "https://es2.rustbeard.com/releases/3607358253/3607358253.zip",
     "timestamp": 1765311609
+  },
+  {
+    "id": "3604410142",
+    "name": "Dracula's Curse",
+    "imageUrl": "https://images.steamusercontent.com/ugc/17908373622912570070/7EFC36BF56045E73BB20D43C96C74DE1FF92FF86/",
+    "downloadUrl": "https://es2.rustbeard.com/releases/3604410142/3604410142.zip",
+    "timestamp": 1765628237
   },
   {
     "id": "3605229022",
@@ -488,6 +502,13 @@
     "imageUrl": "https://images.steamusercontent.com/ugc/12690674012176372912/4B9F9744614CF015D3EFDE344204F607A137A56C/",
     "downloadUrl": "https://es2.rustbeard.com/releases/3610674802/3610674802.zip",
     "timestamp": 1763861155
+  },
+  {
+    "id": "3604490011",
+    "name": "Empty Room",
+    "imageUrl": "https://images.steamusercontent.com/ugc/18297752756193687601/4B9F9744614CF015D3EFDE344204F607A137A56C/",
+    "downloadUrl": "https://es2.rustbeard.com/releases/3604490011/3604490011.zip",
+    "timestamp": 1762970199
   },
   {
     "id": "3607136241",
@@ -546,11 +567,32 @@
     "timestamp": 1765894978
   },
   {
+    "id": "3604670749",
+    "name": "For Achievement :)",
+    "imageUrl": "https://images.steamusercontent.com/ugc/11338348554962453424/7A1F9DEB4A38B67326E7048ED981AD24109C1495/",
+    "downloadUrl": "https://es2.rustbeard.com/releases/3604670749/3604670749.zip",
+    "timestamp": 1762991018
+  },
+  {
+    "id": "3604172867",
+    "name": "Ghost Exilers 1",
+    "imageUrl": "https://images.steamusercontent.com/ugc/17565940339177765219/B42A56BFBBCEDE0DC66FF4AE96ED664FE9CB2A2E/",
+    "downloadUrl": "https://es2.rustbeard.com/releases/3604172867/3604172867.zip",
+    "timestamp": 1763319996
+  },
+  {
     "id": "3606925437",
     "name": "Going Home",
     "imageUrl": "https://images.steamusercontent.com/ugc/18272832877595632523/235D19DB13D1069571F71E1448B2A828FD0B638A/",
     "downloadUrl": "https://es2.rustbeard.com/releases/3606925437/3606925437.zip",
     "timestamp": 1764159210
+  },
+  {
+    "id": "3604308591",
+    "name": "Golden Eagle Space Station (ES1 Remake)",
+    "imageUrl": "https://images.steamusercontent.com/ugc/16724951055594054303/8BD58F779DB4613B14389016D811AB2E033CFC9C/",
+    "downloadUrl": "https://es2.rustbeard.com/releases/3604308591/3604308591.zip",
+    "timestamp": 1763823359
   },
   {
     "id": "3626274671",
@@ -882,6 +924,13 @@
     "timestamp": 1764610201
   },
   {
+    "id": "3604529880",
+    "name": "Pirate Room",
+    "imageUrl": "https://images.steamusercontent.com/ugc/16708916698020739353/0C23F868D3FCE9C82E08E856C907DEEF834766DE/",
+    "downloadUrl": "https://es2.rustbeard.com/releases/3604529880/3604529880.zip",
+    "timestamp": 1762975169
+  },
+  {
     "id": "3606016604",
     "name": "Pirates End",
     "imageUrl": "https://images.steamusercontent.com/ugc/14231891412218718271/AD4DE535BAEA5E0DA427FFA9E9B5181E618FDED4/",
@@ -1083,6 +1132,13 @@
     "imageUrl": "https://images.steamusercontent.com/ugc/10945969740894180441/7A1F9DEB4A38B67326E7048ED981AD24109C1495/",
     "downloadUrl": "https://es2.rustbeard.com/releases/3617172661/3617172661.zip",
     "timestamp": 1764775697
+  },
+  {
+    "id": "3604666775",
+    "name": "TEst",
+    "imageUrl": "https://images.steamusercontent.com/ugc/9372703309061714252/7A1F9DEB4A38B67326E7048ED981AD24109C1495/",
+    "downloadUrl": "https://es2.rustbeard.com/releases/3604666775/3604666775.zip",
+    "timestamp": 1762990515
   },
   {
     "id": "3607381189",
@@ -1316,6 +1372,13 @@
     "timestamp": 1766236943
   },
   {
+    "id": "3604508660",
+    "name": "Tower of Locks",
+    "imageUrl": "https://images.steamusercontent.com/ugc/15936609364085721427/1324B8E4D7F120AE8E1F3A3925DCD8A89B8DCEC0/",
+    "downloadUrl": "https://es2.rustbeard.com/releases/3604508660/3604508660.zip",
+    "timestamp": 1763242936
+  },
+  {
     "id": "3608924620",
     "name": "Trapped in Space",
     "imageUrl": "https://images.steamusercontent.com/ugc/17712525306026673421/38CC6B85FC11A01DFB61202B42247DAD2B01D953/",
@@ -1356,6 +1419,13 @@
     "imageUrl": "https://images.steamusercontent.com/ugc/13366881678423088412/E27B124E638AEDF1D69DF8EF51587512D6AEC142/",
     "downloadUrl": "https://es2.rustbeard.com/releases/3608163449/3608163449.zip",
     "timestamp": 1764957571
+  },
+  {
+    "id": "3604672082",
+    "name": "WA WA YA YA",
+    "imageUrl": "https://images.steamusercontent.com/ugc/15983202591495304726/5A69F37148C3A2227504460979224BD06972B92C/",
+    "downloadUrl": "https://es2.rustbeard.com/releases/3604672082/3604672082.zip",
+    "timestamp": 1762991199
   },
   {
     "id": "3605043257",
