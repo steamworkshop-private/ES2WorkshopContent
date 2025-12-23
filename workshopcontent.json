@@ -189,6 +189,13 @@
     "timestamp": 1764285165
   },
   {
+    "id": "3607344544",
+    "name": "Dark Dungeon",
+    "imageUrl": "https://images.steamusercontent.com/ugc/11334612145195880581/904E196DD5649CB7A0A7B1A16F3ADCC6256C88A8/",
+    "downloadUrl": "https://es2.rustbeard.com/releases/3607344544/3607344544.zip",
+    "timestamp": 1765309483
+  },
+  {
     "id": "3629235229",
     "name": "Dark Souls",
     "imageUrl": "https://images.steamusercontent.com/ugc/15537543659265189065/D7B8CFA0875F9FDC9F33D946E28491BEE82128C0/",
@@ -525,6 +532,13 @@
     "timestamp": 1763366110
   },
   {
+    "id": "3607290867",
+    "name": "Monster Bash",
+    "imageUrl": "https://images.steamusercontent.com/ugc/15949033307816961866/109B3ACA8FFF5E57FF301A56A12C0C3E130F0D9A/",
+    "downloadUrl": "https://es2.rustbeard.com/releases/3607290867/3607290867.zip",
+    "timestamp": 1763351671
+  },
+  {
     "id": "3627055234",
     "name": "Morken Christmas -  Pirate",
     "imageUrl": "https://images.steamusercontent.com/ugc/9516713867854330775/C06FDDE06745CB3E4DEE8676A1E523AE4E88A203/",
@@ -686,6 +700,13 @@
     "timestamp": 1764198710
   },
   {
+    "id": "3607340450",
+    "name": "Room Editor - Advanced",
+    "imageUrl": "https://images.steamusercontent.com/ugc/10668487773051192732/9E2864BA96368FACCD14615864431E3620F40E21/",
+    "downloadUrl": "https://es2.rustbeard.com/releases/3607340450/3607340450.zip",
+    "timestamp": 1763352189
+  },
+  {
     "id": "3622068158",
     "name": "Room Editor - Basics",
     "imageUrl": "https://images.steamusercontent.com/ugc/10163182111125713727/8D09F302D23B2F646F758324AEFAEC5A10DD709C/",
@@ -735,6 +756,13 @@
     "timestamp": 1765890169
   },
   {
+    "id": "3607287706",
+    "name": "Shadowed",
+    "imageUrl": "https://images.steamusercontent.com/ugc/14018838288408364954/A74AB12B4FC9E15C8361F06C1C5A1D3D393C8C52/",
+    "downloadUrl": "https://es2.rustbeard.com/releases/3607287706/3607287706.zip",
+    "timestamp": 1765821531
+  },
+  {
     "id": "3628096155",
     "name": "Sleep Deprivation",
     "imageUrl": "https://images.steamusercontent.com/ugc/10797573948845851813/7A1F9DEB4A38B67326E7048ED981AD24109C1495/",
@@ -761,6 +789,13 @@
     "imageUrl": "https://images.steamusercontent.com/ugc/16169729367756374127/EA1A58C3A65C5419076A179BDDB5419F4A8F9DF7/",
     "downloadUrl": "https://es2.rustbeard.com/releases/3607394567/3607394567.zip",
     "timestamp": 1763367192
+  },
+  {
+    "id": "3607339177",
+    "name": "Still Life (Singleplsyer Only)",
+    "imageUrl": "https://images.steamusercontent.com/ugc/10121116925641892005/FFCBBBA65B24332BE1609E3904D670B49B66F386/",
+    "downloadUrl": "https://es2.rustbeard.com/releases/3607339177/3607339177.zip",
+    "timestamp": 1765457738
   },
   {
     "id": "3617172661",
@@ -791,6 +826,13 @@
     "timestamp": 1763362783
   },
   {
+    "id": "3607262240",
+    "name": "The Chess Halls",
+    "imageUrl": "https://images.steamusercontent.com/ugc/13956965882400515718/5E500A80B4430AA2A4EB2F19E60EE8DD0A862A61/",
+    "downloadUrl": "https://es2.rustbeard.com/releases/3607262240/3607262240.zip",
+    "timestamp": 1763382419
+  },
+  {
     "id": "3626420748",
     "name": "The Great Circumstance",
     "imageUrl": "https://images.steamusercontent.com/ugc/10030461603128056644/43316F81223F04D1E89356C78712A6E095BD16EB/",
@@ -803,6 +845,20 @@
     "imageUrl": "https://images.steamusercontent.com/ugc/17984089561037781864/46C5B030620F1436C628C316BB3010F67616B7AC/",
     "downloadUrl": "https://es2.rustbeard.com/releases/3625370248/3625370248.zip",
     "timestamp": 1765944097
+  },
+  {
+    "id": "3607284789",
+    "name": "The Great Magician's Mysterious Cabinet of Spirits",
+    "imageUrl": "https://images.steamusercontent.com/ugc/14098856386516628408/9BC45370A7B7A3C2DEF273683D1263A5C23E3FEA/",
+    "downloadUrl": "https://es2.rustbeard.com/releases/3607284789/3607284789.zip",
+    "timestamp": 1764368052
+  },
+  {
+    "id": "3607302997",
+    "name": "The Hidden Handrawn Hideaway",
+    "imageUrl": "https://images.steamusercontent.com/ugc/12481754725905265022/AB34E557FC5E5A30B72F0CF4C3C569D6921E3019/",
+    "downloadUrl": "https://es2.rustbeard.com/releases/3607302997/3607302997.zip",
+    "timestamp": 1763345022
   },
   {
     "id": "3607372285",
@@ -868,6 +924,13 @@
     "timestamp": 1765304393
   },
   {
+    "id": "3607284161",
+    "name": "Tiny Feelings",
+    "imageUrl": "https://images.steamusercontent.com/ugc/15114022038730384262/54AF7C1F886210119CF8FE7382C4B23E33ED5F57/",
+    "downloadUrl": "https://es2.rustbeard.com/releases/3607284161/3607284161.zip",
+    "timestamp": 1765164194
+  },
+  {
     "id": "3611833182",
     "name": "Token Prison (Token Search)",
     "imageUrl": "https://images.steamusercontent.com/ugc/12385268537924510448/560202C03B1BFA795F52E6EE2317E73FA113FF5C/",
@@ -887,6 +950,13 @@
     "imageUrl": "https://images.steamusercontent.com/ugc/17712525306026673421/38CC6B85FC11A01DFB61202B42247DAD2B01D953/",
     "downloadUrl": "https://es2.rustbeard.com/releases/3608924620/3608924620.zip",
     "timestamp": 1763611795
+  },
+  {
+    "id": "3607332020",
+    "name": "Up The Clock Part 1 - Swinging Sensation",
+    "imageUrl": "https://images.steamusercontent.com/ugc/9677472834215942863/05D5BF4084A39A661D6F265CB89EC6978E62B573/",
+    "downloadUrl": "https://es2.rustbeard.com/releases/3607332020/3607332020.zip",
+    "timestamp": 1763350314
   },
   {
     "id": "3626281153",
