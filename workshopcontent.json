@@ -14,6 +14,13 @@
     "timestamp": 1763500481
   },
   {
+    "id": "3607250055",
+    "name": "1",
+    "imageUrl": "https://images.steamusercontent.com/ugc/14727272897960284054/7A1F9DEB4A38B67326E7048ED981AD24109C1495/",
+    "downloadUrl": "https://es2.rustbeard.com/releases/3607250055/3607250055.zip",
+    "timestamp": 1763335891
+  },
+  {
     "id": "3618054935",
     "name": "100%",
     "imageUrl": "https://images.steamusercontent.com/ugc/16018544595597311151/7A1F9DEB4A38B67326E7048ED981AD24109C1495/",
@@ -33,6 +40,13 @@
     "imageUrl": "https://images.steamusercontent.com/ugc/11161902262750979124/7A1F9DEB4A38B67326E7048ED981AD24109C1495/",
     "downloadUrl": "https://es2.rustbeard.com/releases/3614829126/3614829126.zip",
     "timestamp": 1764448462
+  },
+  {
+    "id": "3607148281",
+    "name": "A Dark Portal",
+    "imageUrl": "https://images.steamusercontent.com/ugc/9728769125900058812/E297D3EBA234C6CE5CC27316F76F5092D9B26D69/",
+    "downloadUrl": "https://es2.rustbeard.com/releases/3607148281/3607148281.zip",
+    "timestamp": 1763370233
   },
   {
     "id": "3615625930",
@@ -175,6 +189,13 @@
     "timestamp": 1766193035
   },
   {
+    "id": "3607236312",
+    "name": "Cirque De Terror",
+    "imageUrl": "https://images.steamusercontent.com/ugc/9653786534202169479/194AD1EFB14E5B37BE6E58C9A0DFBF7BA8999D57/",
+    "downloadUrl": "https://es2.rustbeard.com/releases/3607236312/3607236312.zip",
+    "timestamp": 1763338121
+  },
+  {
     "id": "3607579992",
     "name": "Competition Room",
     "imageUrl": "https://images.steamusercontent.com/ugc/16283876143511904223/530A3854F83E82A61C58A09B842A327E755ACE93/",
@@ -208,6 +229,13 @@
     "imageUrl": "https://images.steamusercontent.com/ugc/9540084049138336732/AF14C5A52E1823541CEAAB7EA71D63E0C107A60D/",
     "downloadUrl": "https://es2.rustbeard.com/releases/3619564656/3619564656.zip",
     "timestamp": 1765222084
+  },
+  {
+    "id": "3607226536",
+    "name": "Darkness escape!",
+    "imageUrl": "https://images.steamusercontent.com/ugc/14435706906018075304/A86D366EB433B41F64BF37C34F94F2D0DEBBDA43/",
+    "downloadUrl": "https://es2.rustbeard.com/releases/3607226536/3607226536.zip",
+    "timestamp": 1763332755
   },
   {
     "id": "3619919452",
@@ -385,11 +413,25 @@
     "timestamp": 1763861155
   },
   {
+    "id": "3607136241",
+    "name": "Escape From School",
+    "imageUrl": "https://images.steamusercontent.com/ugc/10055249446992804235/C9C5796753D7B7AE494AA3DBF625D8F7932244A9/",
+    "downloadUrl": "https://es2.rustbeard.com/releases/3607136241/3607136241.zip",
+    "timestamp": 1763389032
+  },
+  {
     "id": "3607936101",
     "name": "Escape The Saloon",
     "imageUrl": "https://images.steamusercontent.com/ugc/16368813406867041430/A1C0A935B055288A29C8F37652E2036EBF9F4474/",
     "downloadUrl": "https://es2.rustbeard.com/releases/3607936101/3607936101.zip",
     "timestamp": 1763456161
+  },
+  {
+    "id": "3607219408",
+    "name": "Escape from Rose Manor",
+    "imageUrl": "https://images.steamusercontent.com/ugc/11945136260412284488/05824E021D46CB804A09587D7828EC90E4BDA3D4/",
+    "downloadUrl": "https://es2.rustbeard.com/releases/3607219408/3607219408.zip",
+    "timestamp": 1763346797
   },
   {
     "id": "3608848066",
@@ -446,6 +488,13 @@
     "imageUrl": "https://images.steamusercontent.com/ugc/14566852811579056998/7A1F9DEB4A38B67326E7048ED981AD24109C1495/",
     "downloadUrl": "https://es2.rustbeard.com/releases/3612886137/3612886137.zip",
     "timestamp": 1764185261
+  },
+  {
+    "id": "3607145782",
+    "name": "High Street Subway",
+    "imageUrl": "https://images.steamusercontent.com/ugc/9672919110364764983/594660B405B52CB5987AD38339C9E6884824BCA1/",
+    "downloadUrl": "https://es2.rustbeard.com/releases/3607145782/3607145782.zip",
+    "timestamp": 1763324027
   },
   {
     "id": "3612515254",
@@ -819,6 +868,13 @@
     "timestamp": 1765826175
   },
   {
+    "id": "3607228192",
+    "name": "Test Su_ccés",
+    "imageUrl": "https://images.steamusercontent.com/ugc/13750864427002541296/7A1F9DEB4A38B67326E7048ED981AD24109C1495/",
+    "downloadUrl": "https://es2.rustbeard.com/releases/3607228192/3607228192.zip",
+    "timestamp": 1763332954
+  },
+  {
     "id": "3607379230",
     "name": "The Cat, the Potions, and the Broken Wards",
     "imageUrl": "https://images.steamusercontent.com/ugc/15813472579626346287/14F1171818BAC8411A56B36618E0FEB94B7DCDB0/",
@@ -882,11 +938,25 @@
     "timestamp": 1763681782
   },
   {
+    "id": "3607115847",
+    "name": "The Rose Maiden's Altar",
+    "imageUrl": "https://images.steamusercontent.com/ugc/9587553786978344327/B4647B89BD75F75BD3F2CF2C3CC31F7821EC650A/",
+    "downloadUrl": "https://es2.rustbeard.com/releases/3607115847/3607115847.zip",
+    "timestamp": 1763331887
+  },
+  {
     "id": "3607520284",
     "name": "The Rotary Chamber",
     "imageUrl": "https://images.steamusercontent.com/ugc/16254570197246355038/4F9EB223EC6C9F08D731C22B4248BFCDF7D0F503/",
     "downloadUrl": "https://es2.rustbeard.com/releases/3607520284/3607520284.zip",
     "timestamp": 1763595643
+  },
+  {
+    "id": "3607099762",
+    "name": "The Silent Spire",
+    "imageUrl": "https://images.steamusercontent.com/ugc/15626926427787355368/3937040F03D56C3C06029A050F3EB3D607F85652/",
+    "downloadUrl": "https://es2.rustbeard.com/releases/3607099762/3607099762.zip",
+    "timestamp": 1763334136
   },
   {
     "id": "3609773488",
