@@ -14,6 +14,20 @@
     "timestamp": 1766447838
   },
   {
+    "id": "3627252045",
+    "name": "Chanty",
+    "imageUrl": "https://images.steamusercontent.com/ugc/17975710632333569310/7A1F9DEB4A38B67326E7048ED981AD24109C1495/",
+    "downloadUrl": "https://es2.rustbeard.com/releases/3627252045/3627252045.zip",
+    "timestamp": 1766223930
+  },
+  {
+    "id": "3627052811",
+    "name": "Christmas Final Puzzle",
+    "imageUrl": "https://images.steamusercontent.com/ugc/17974812475590837540/7A1F9DEB4A38B67326E7048ED981AD24109C1495/",
+    "downloadUrl": "https://es2.rustbeard.com/releases/3627052811/3627052811.zip",
+    "timestamp": 1766193035
+  },
+  {
     "id": "3629235229",
     "name": "Dark Souls",
     "imageUrl": "https://images.steamusercontent.com/ugc/15537543659265189065/D7B8CFA0875F9FDC9F33D946E28491BEE82128C0/",
@@ -21,11 +35,46 @@
     "timestamp": 1766443022
   },
   {
+    "id": "3627015806",
+    "name": "Default Room",
+    "imageUrl": "https://images.steamusercontent.com/ugc/16811177328358911887/7A1F9DEB4A38B67326E7048ED981AD24109C1495/",
+    "downloadUrl": "https://es2.rustbeard.com/releases/3627015806/3627015806.zip",
+    "timestamp": 1766187968
+  },
+  {
+    "id": "3627055234",
+    "name": "Morken Christmas -  Pirate",
+    "imageUrl": "https://images.steamusercontent.com/ugc/9516713867854330775/C06FDDE06745CB3E4DEE8676A1E523AE4E88A203/",
+    "downloadUrl": "https://es2.rustbeard.com/releases/3627055234/3627055234.zip",
+    "timestamp": 1766193409
+  },
+  {
+    "id": "3627051112",
+    "name": "Morken Christmas - Dracula",
+    "imageUrl": "https://images.steamusercontent.com/ugc/12510562022622887924/5B34B4087ACE52DF65E9E3A817C0707945AC72BB/",
+    "downloadUrl": "https://es2.rustbeard.com/releases/3627051112/3627051112.zip",
+    "timestamp": 1766192839
+  },
+  {
+    "id": "3627054786",
+    "name": "Morken Christmas - Space",
+    "imageUrl": "https://images.steamusercontent.com/ugc/10263372756020075063/75E7F7792C911D91A507DF5F668215EDBFDC8C5D/",
+    "downloadUrl": "https://es2.rustbeard.com/releases/3627054786/3627054786.zip",
+    "timestamp": 1766193340
+  },
+  {
     "id": "3627686944",
     "name": "Pirate Room",
     "imageUrl": "https://images.steamusercontent.com/ugc/9238435449889482829/53D497427A9DA3488A00D255A9A9803CDCE7A3FB/",
     "downloadUrl": "https://es2.rustbeard.com/releases/3627686944/3627686944.zip",
     "timestamp": 1766265374
+  },
+  {
+    "id": "3626762234",
+    "name": "Q",
+    "imageUrl": "https://images.steamusercontent.com/ugc/10139234056560972476/7A1F9DEB4A38B67326E7048ED981AD24109C1495/",
+    "downloadUrl": "https://es2.rustbeard.com/releases/3626762234/3626762234.zip",
+    "timestamp": 1766162085
   },
   {
     "id": "3628946171",
@@ -42,11 +91,32 @@
     "timestamp": 1766316246
   },
   {
+    "id": "3626420748",
+    "name": "The Great Circumstance",
+    "imageUrl": "https://images.steamusercontent.com/ugc/10030461603128056644/43316F81223F04D1E89356C78712A6E095BD16EB/",
+    "downloadUrl": "https://es2.rustbeard.com/releases/3626420748/3626420748.zip",
+    "timestamp": 1766108100
+  },
+  {
+    "id": "3626281153",
+    "name": "VIKTOR GAYL",
+    "imageUrl": "https://images.steamusercontent.com/ugc/13947290539637880340/7A1F9DEB4A38B67326E7048ED981AD24109C1495/",
+    "downloadUrl": "https://es2.rustbeard.com/releases/3626281153/3626281153.zip",
+    "timestamp": 1766088602
+  },
+  {
     "id": "3628759365",
     "name": "Wizard's Trap",
     "imageUrl": "https://images.steamusercontent.com/ugc/18007076669267559195/C9E10F254D76D36EA089ED208CD5BE912A18EC73/",
     "downloadUrl": "https://es2.rustbeard.com/releases/3628759365/3628759365.zip",
     "timestamp": 1766385888
+  },
+  {
+    "id": "3626752496",
+    "name": "YACHIDA",
+    "imageUrl": "https://images.steamusercontent.com/ugc/16326380010779551449/7A1F9DEB4A38B67326E7048ED981AD24109C1495/",
+    "downloadUrl": "https://es2.rustbeard.com/releases/3626752496/3626752496.zip",
+    "timestamp": 1766161012
   },
   {
     "id": "3629287355",
