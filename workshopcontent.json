@@ -161,6 +161,13 @@
     "timestamp": 1766223930
   },
   {
+    "id": "3607379010",
+    "name": "Checkmate Inn",
+    "imageUrl": "https://images.steamusercontent.com/ugc/9401973000064106829/15277D6E67353B490F41BC0FE1D357D36041462A/",
+    "downloadUrl": "https://es2.rustbeard.com/releases/3607379010/3607379010.zip",
+    "timestamp": 1766378684
+  },
+  {
     "id": "3627052811",
     "name": "Christmas Final Puzzle",
     "imageUrl": "https://images.steamusercontent.com/ugc/17974812475590837540/7A1F9DEB4A38B67326E7048ED981AD24109C1495/",
@@ -343,6 +350,13 @@
     "timestamp": 1763393772
   },
   {
+    "id": "3607358253",
+    "name": "Dracula's Chapel",
+    "imageUrl": "https://images.steamusercontent.com/ugc/11630826446605483719/F7A89D5D1302A68720DA6FA922596A6E76DBC25D/",
+    "downloadUrl": "https://es2.rustbeard.com/releases/3607358253/3607358253.zip",
+    "timestamp": 1765311609
+  },
+  {
     "id": "3617965103",
     "name": "ESCAPE!",
     "imageUrl": "https://images.steamusercontent.com/ugc/17271257636399523301/7A1F9DEB4A38B67326E7048ED981AD24109C1495/",
@@ -504,6 +518,13 @@
     "timestamp": 1763477122
   },
   {
+    "id": "3607392400",
+    "name": "Mirrored son",
+    "imageUrl": "https://images.steamusercontent.com/ugc/17451256152498126996/72923C1A54B07FDB9CA90EC8F67AF48D6B536A2C/",
+    "downloadUrl": "https://es2.rustbeard.com/releases/3607392400/3607392400.zip",
+    "timestamp": 1763366110
+  },
+  {
     "id": "3627055234",
     "name": "Morken Christmas -  Pirate",
     "imageUrl": "https://images.steamusercontent.com/ugc/9516713867854330775/C06FDDE06745CB3E4DEE8676A1E523AE4E88A203/",
@@ -567,6 +588,13 @@
     "timestamp": 1763933994
   },
   {
+    "id": "3607357140",
+    "name": "Overtime",
+    "imageUrl": "https://images.steamusercontent.com/ugc/10498104039169718247/734A08A5B52036CBA39277D96DE26AB5871B5167/",
+    "downloadUrl": "https://es2.rustbeard.com/releases/3607357140/3607357140.zip",
+    "timestamp": 1763356811
+  },
+  {
     "id": "3614254371",
     "name": "P3DRU",
     "imageUrl": "https://images.steamusercontent.com/ugc/14471091977258925215/7A1F9DEB4A38B67326E7048ED981AD24109C1495/",
@@ -600,6 +628,20 @@
     "imageUrl": "https://images.steamusercontent.com/ugc/16824159021608256267/53D497427A9DA3488A00D255A9A9803CDCE7A3FB/",
     "downloadUrl": "https://es2.rustbeard.com/releases/3616111484/3616111484.zip",
     "timestamp": 1764610201
+  },
+  {
+    "id": "3607353355",
+    "name": "Poor Poet Pavel",
+    "imageUrl": "https://images.steamusercontent.com/ugc/9411197401468864241/09C36FFE457029F279E5195FE7D70854ACEC6D16/",
+    "downloadUrl": "https://es2.rustbeard.com/releases/3607353355/3607353355.zip",
+    "timestamp": 1765837160
+  },
+  {
+    "id": "3607361591",
+    "name": "Prototype Room",
+    "imageUrl": "https://images.steamusercontent.com/ugc/9530441556638847746/2275BC6094547E224504D90EB4173D4AE7271C9C/",
+    "downloadUrl": "https://es2.rustbeard.com/releases/3607361591/3607361591.zip",
+    "timestamp": 1763794849
   },
   {
     "id": "3626762234",
@@ -728,11 +770,25 @@
     "timestamp": 1764775697
   },
   {
+    "id": "3607381189",
+    "name": "Temple of the Twin Fangs",
+    "imageUrl": "https://images.steamusercontent.com/ugc/14710892866967932167/50E38895AD9E61D1BE4AC5323B5C6E6B7A25EC65/",
+    "downloadUrl": "https://es2.rustbeard.com/releases/3607381189/3607381189.zip",
+    "timestamp": 1763806424
+  },
+  {
     "id": "3624598867",
     "name": "Test",
     "imageUrl": "https://images.steamusercontent.com/ugc/14390356440681387135/7A1F9DEB4A38B67326E7048ED981AD24109C1495/",
     "downloadUrl": "https://es2.rustbeard.com/releases/3624598867/3624598867.zip",
     "timestamp": 1765826175
+  },
+  {
+    "id": "3607379230",
+    "name": "The Cat, the Potions, and the Broken Wards",
+    "imageUrl": "https://images.steamusercontent.com/ugc/15813472579626346287/14F1171818BAC8411A56B36618E0FEB94B7DCDB0/",
+    "downloadUrl": "https://es2.rustbeard.com/releases/3607379230/3607379230.zip",
+    "timestamp": 1763362783
   },
   {
     "id": "3626420748",
@@ -747,6 +803,13 @@
     "imageUrl": "https://images.steamusercontent.com/ugc/17984089561037781864/46C5B030620F1436C628C316BB3010F67616B7AC/",
     "downloadUrl": "https://es2.rustbeard.com/releases/3625370248/3625370248.zip",
     "timestamp": 1765944097
+  },
+  {
+    "id": "3607372285",
+    "name": "The Lost Hotel",
+    "imageUrl": "https://images.steamusercontent.com/ugc/14549693389136593448/B673983CA4EC595DFC10C81A5FD4F327C150A048/",
+    "downloadUrl": "https://es2.rustbeard.com/releases/3607372285/3607372285.zip",
+    "timestamp": 1763368966
   },
   {
     "id": "3615460279",
@@ -1111,6 +1174,13 @@
     "imageUrl": "https://images.steamusercontent.com/ugc/14775877744550201246/7A1F9DEB4A38B67326E7048ED981AD24109C1495/",
     "downloadUrl": "https://es2.rustbeard.com/releases/3614340845/3614340845.zip",
     "timestamp": 1764393538
+  },
+  {
+    "id": "3607371348",
+    "name": "yo momma",
+    "imageUrl": "https://images.steamusercontent.com/ugc/15931048160735732661/62BFC0790FCD6717BA5506C6CD208610E2AC81AC/",
+    "downloadUrl": "https://es2.rustbeard.com/releases/3607371348/3607371348.zip",
+    "timestamp": 1763401279
   },
   {
     "id": "3616839421",
