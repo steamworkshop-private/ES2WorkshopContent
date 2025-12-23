@@ -56,6 +56,20 @@
     "timestamp": 1765287674
   },
   {
+    "id": "3609721810",
+    "name": "Angle of Reflection",
+    "imageUrl": "https://images.steamusercontent.com/ugc/18048104568466054080/B20D9A45B73D4E6A87449A24137FAFA292EDBABB/",
+    "downloadUrl": "https://es2.rustbeard.com/releases/3609721810/3609721810.zip",
+    "timestamp": 1764287797
+  },
+  {
+    "id": "3610240936",
+    "name": "Ariel's Co-op Sudoku",
+    "imageUrl": "https://images.steamusercontent.com/ugc/9599595919710764571/4FC85437670E259797C50F32E3FD752F5116A5A8/",
+    "downloadUrl": "https://es2.rustbeard.com/releases/3610240936/3610240936.zip",
+    "timestamp": 1763981022
+  },
+  {
     "id": "3625333742",
     "name": "Burglar Bros",
     "imageUrl": "https://images.steamusercontent.com/ugc/10328108469325197847/EB4229435E624DB66090C6FDD6E26323355C2DDD/",
@@ -252,6 +266,13 @@
     "timestamp": 1764473897
   },
   {
+    "id": "3609578737",
+    "name": "Dracula Room",
+    "imageUrl": "https://images.steamusercontent.com/ugc/15143660712900890953/0A773F81A06CB3C0D31D656D1D040EA4372B08B5/",
+    "downloadUrl": "https://es2.rustbeard.com/releases/3609578737/3609578737.zip",
+    "timestamp": 1763725334
+  },
+  {
     "id": "3617965103",
     "name": "ESCAPE!",
     "imageUrl": "https://images.steamusercontent.com/ugc/17271257636399523301/7A1F9DEB4A38B67326E7048ED981AD24109C1495/",
@@ -271,6 +292,13 @@
     "imageUrl": "https://images.steamusercontent.com/ugc/12690674012176372912/4B9F9744614CF015D3EFDE344204F607A137A56C/",
     "downloadUrl": "https://es2.rustbeard.com/releases/3610674802/3610674802.zip",
     "timestamp": 1763861155
+  },
+  {
+    "id": "3608848066",
+    "name": "Escape from Wizard Prison",
+    "imageUrl": "https://images.steamusercontent.com/ugc/10755787350378239758/BBF3337AA28BCA287DA830D37097A4F98F508D83/",
+    "downloadUrl": "https://es2.rustbeard.com/releases/3608848066/3608848066.zip",
+    "timestamp": 1763740021
   },
   {
     "id": "3610284054",
@@ -350,6 +378,13 @@
     "timestamp": 1765463425
   },
   {
+    "id": "3609927277",
+    "name": "Mad Scientists Laboratory",
+    "imageUrl": "https://images.steamusercontent.com/ugc/9269746551275304387/9B3CA8064BC7919AF5CE3C0A029F1B1F40083106/",
+    "downloadUrl": "https://es2.rustbeard.com/releases/3609927277/3609927277.zip",
+    "timestamp": 1763772806
+  },
+  {
     "id": "3627055234",
     "name": "Morken Christmas -  Pirate",
     "imageUrl": "https://images.steamusercontent.com/ugc/9516713867854330775/C06FDDE06745CB3E4DEE8676A1E523AE4E88A203/",
@@ -369,6 +404,13 @@
     "imageUrl": "https://images.steamusercontent.com/ugc/10263372756020075063/75E7F7792C911D91A507DF5F668215EDBFDC8C5D/",
     "downloadUrl": "https://es2.rustbeard.com/releases/3627054786/3627054786.zip",
     "timestamp": 1766193340
+  },
+  {
+    "id": "3608882132",
+    "name": "Multi-puzzle Difficult",
+    "imageUrl": "https://images.steamusercontent.com/ugc/17342115646135322994/4BDAB743287885F16E96F24984608EE413DA590B/",
+    "downloadUrl": "https://es2.rustbeard.com/releases/3608882132/3608882132.zip",
+    "timestamp": 1764957100
   },
   {
     "id": "3626274969",
@@ -581,6 +623,13 @@
     "timestamp": 1764520676
   },
   {
+    "id": "3609773488",
+    "name": "The Token",
+    "imageUrl": "https://images.steamusercontent.com/ugc/10428225697899887614/0E943863238257457AF104D19B0D8D73D6A60429/",
+    "downloadUrl": "https://es2.rustbeard.com/releases/3609773488/3609773488.zip",
+    "timestamp": 1763754539
+  },
+  {
     "id": "3611014923",
     "name": "The Worst Hotel",
     "imageUrl": "https://images.steamusercontent.com/ugc/16031415354914381189/A163FE35B4B060212D39A98B196E96D2C9C8DFE3/",
@@ -607,6 +656,13 @@
     "imageUrl": "https://images.steamusercontent.com/ugc/12705730758839260859/1D20FD41CA0894EDC78485B27BC1712964E75D70/",
     "downloadUrl": "https://es2.rustbeard.com/releases/3621144345/3621144345.zip",
     "timestamp": 1766236943
+  },
+  {
+    "id": "3608924620",
+    "name": "Trapped in Space",
+    "imageUrl": "https://images.steamusercontent.com/ugc/17712525306026673421/38CC6B85FC11A01DFB61202B42247DAD2B01D953/",
+    "downloadUrl": "https://es2.rustbeard.com/releases/3608924620/3608924620.zip",
+    "timestamp": 1763611795
   },
   {
     "id": "3626281153",
@@ -649,6 +705,13 @@
     "imageUrl": "https://images.steamusercontent.com/ugc/13545537488364795626/7A1F9DEB4A38B67326E7048ED981AD24109C1495/",
     "downloadUrl": "https://es2.rustbeard.com/releases/3617378438/3617378438.zip",
     "timestamp": 1764799483
+  },
+  {
+    "id": "3609937066",
+    "name": "ach",
+    "imageUrl": "https://images.steamusercontent.com/ugc/12630076404014742902/7A1F9DEB4A38B67326E7048ED981AD24109C1495/",
+    "downloadUrl": "https://es2.rustbeard.com/releases/3609937066/3609937066.zip",
+    "timestamp": 1763770179
   },
   {
     "id": "3620655737",
@@ -754,6 +817,13 @@
     "imageUrl": "https://images.steamusercontent.com/ugc/16228356177247607152/DDC500D0D3E1888124321E8D99FA21DD7B1CFD5B/",
     "downloadUrl": "https://es2.rustbeard.com/releases/3622430431/3622430431.zip",
     "timestamp": 1765552177
+  },
+  {
+    "id": "3609466107",
+    "name": "lixo",
+    "imageUrl": "https://images.steamusercontent.com/ugc/15059153775029631243/0A773F81A06CB3C0D31D656D1D040EA4372B08B5/",
+    "downloadUrl": "https://es2.rustbeard.com/releases/3609466107/3609466107.zip",
+    "timestamp": 1763699941
   },
   {
     "id": "3618412642",
