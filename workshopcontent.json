@@ -49,6 +49,13 @@
     "timestamp": 1764448462
   },
   {
+    "id": "3601517703",
+    "name": "22w2",
+    "imageUrl": "https://images.steamusercontent.com/ugc/13742688688733679891/7A1F9DEB4A38B67326E7048ED981AD24109C1495/",
+    "downloadUrl": "https://es2.rustbeard.com/releases/3601517703/3601517703.zip",
+    "timestamp": 1762552864
+  },
+  {
     "id": "3607148281",
     "name": "A Dark Portal",
     "imageUrl": "https://images.steamusercontent.com/ugc/9728769125900058812/E297D3EBA234C6CE5CC27316F76F5092D9B26D69/",
@@ -75,6 +82,13 @@
     "imageUrl": "https://images.steamusercontent.com/ugc/9568263997964695141/C06FDDE06745CB3E4DEE8676A1E523AE4E88A203/",
     "downloadUrl": "https://es2.rustbeard.com/releases/3622680582/3622680582.zip",
     "timestamp": 1765581441
+  },
+  {
+    "id": "3601413160",
+    "name": "Abduckted (Singleplayer)",
+    "imageUrl": "https://images.steamusercontent.com/ugc/15546198489728814690/390452D6ADAE119BBDAF83FBD5BD013EF5200FEC/",
+    "downloadUrl": "https://es2.rustbeard.com/releases/3601413160/3601413160.zip",
+    "timestamp": 1764981748
   },
   {
     "id": "3607740745",
@@ -152,6 +166,13 @@
     "imageUrl": "https://images.steamusercontent.com/ugc/9599595919710764571/4FC85437670E259797C50F32E3FD752F5116A5A8/",
     "downloadUrl": "https://es2.rustbeard.com/releases/3610240936/3610240936.zip",
     "timestamp": 1763981022
+  },
+  {
+    "id": "3601398509",
+    "name": "Beacon in the Dark",
+    "imageUrl": "https://images.steamusercontent.com/ugc/11045449367472627419/8DE50552888EE138904ACE2DBD21BCCCB41C646E/",
+    "downloadUrl": "https://es2.rustbeard.com/releases/3601398509/3601398509.zip",
+    "timestamp": 1763358667
   },
   {
     "id": "3605967367",
@@ -483,6 +504,13 @@
     "timestamp": 1762672319
   },
   {
+    "id": "3601538048",
+    "name": "Dr. Dread's Test Exemption",
+    "imageUrl": "https://images.steamusercontent.com/ugc/14164129376836714425/082C5C947DFB32C98546AAE0E51BB0FAF9A2224A/",
+    "downloadUrl": "https://es2.rustbeard.com/releases/3601538048/3601538048.zip",
+    "timestamp": 1763354322
+  },
+  {
     "id": "3624920302",
     "name": "Dracula Room",
     "imageUrl": "https://images.steamusercontent.com/ugc/9375343450258843917/04205BC5B193AB9040AC6DA1F5AA34188248ACF1/",
@@ -644,6 +672,13 @@
     "timestamp": 1762890082
   },
   {
+    "id": "3601304772",
+    "name": "Easy Escape",
+    "imageUrl": "https://images.steamusercontent.com/ugc/11685193717307379083/16A011E594BFF0A08C7A095F56D0FA77C1F81E2F/",
+    "downloadUrl": "https://es2.rustbeard.com/releases/3601304772/3601304772.zip",
+    "timestamp": 1762529858
+  },
+  {
     "id": "3602619776",
     "name": "Easy win",
     "imageUrl": "https://images.steamusercontent.com/ugc/16297478853156892795/7A1F9DEB4A38B67326E7048ED981AD24109C1495/",
@@ -726,6 +761,13 @@
     "imageUrl": "https://images.steamusercontent.com/ugc/17713968145653339689/8FB9A4EC496A5B0F7A3BAE27A0662001497355C2/",
     "downloadUrl": "https://es2.rustbeard.com/releases/3603894741/3603894741.zip",
     "timestamp": 1762876465
+  },
+  {
+    "id": "3601428981",
+    "name": "Escape from the classroom",
+    "imageUrl": "https://images.steamusercontent.com/ugc/11492850315678718539/D2F8D9CCF43B8960E711DFDC1E7123F748756B74/",
+    "downloadUrl": "https://es2.rustbeard.com/releases/3601428981/3601428981.zip",
+    "timestamp": 1763318725
   },
   {
     "id": "3607394369",
@@ -1372,6 +1414,13 @@
     "timestamp": 1765821531
   },
   {
+    "id": "3601549430",
+    "name": "Shadows of Blackwater Port",
+    "imageUrl": "https://images.steamusercontent.com/ugc/14492538549033164129/A9B07ED6C117EDB96BBCEA758F7CDB8EBF03D6D3/",
+    "downloadUrl": "https://es2.rustbeard.com/releases/3601549430/3601549430.zip",
+    "timestamp": 1763224442
+  },
+  {
     "id": "3628096155",
     "name": "Sleep Deprivation",
     "imageUrl": "https://images.steamusercontent.com/ugc/10797573948845851813/7A1F9DEB4A38B67326E7048ED981AD24109C1495/",
@@ -1673,6 +1722,13 @@
     "timestamp": 1763334136
   },
   {
+    "id": "3601521089",
+    "name": "The Siren’s Spell",
+    "imageUrl": "https://images.steamusercontent.com/ugc/15038739660479433277/1633D3033CFDDCAEA4EABBE4A2F69B63F0EFA7F5/",
+    "downloadUrl": "https://es2.rustbeard.com/releases/3601521089/3601521089.zip",
+    "timestamp": 1763118425
+  },
+  {
     "id": "3604833607",
     "name": "The Terrible Tarot",
     "imageUrl": "https://images.steamusercontent.com/ugc/9997275213840494857/0930DD0D2E05635FCCE753D808484CB43ACF523E/",
@@ -1757,6 +1813,13 @@
     "timestamp": 1765164194
   },
   {
+    "id": "3601506204",
+    "name": "Token Escape",
+    "imageUrl": "https://images.steamusercontent.com/ugc/11728783468005801543/C57828942EC381830A30074E8A008FDB200DB89B/",
+    "downloadUrl": "https://es2.rustbeard.com/releases/3601506204/3601506204.zip",
+    "timestamp": 1762551527
+  },
+  {
     "id": "3611833182",
     "name": "Token Prison (Token Search)",
     "imageUrl": "https://images.steamusercontent.com/ugc/12385268537924510448/560202C03B1BFA795F52E6EE2317E73FA113FF5C/",
@@ -1832,6 +1895,13 @@
     "imageUrl": "https://images.steamusercontent.com/ugc/10158989321101263445/C06BB17C00DA7BBF9E5FC12C9BF1B1ECB6C85623/",
     "downloadUrl": "https://es2.rustbeard.com/releases/3605043257/3605043257.zip",
     "timestamp": 1765607599
+  },
+  {
+    "id": "3601256739",
+    "name": "Watson's Scape",
+    "imageUrl": "https://images.steamusercontent.com/ugc/15494847740775203072/DD23B884F6733B5512D046AB03589A69929C82CF/",
+    "downloadUrl": "https://es2.rustbeard.com/releases/3601256739/3601256739.zip",
+    "timestamp": 1762996145
   },
   {
     "id": "3606876408",
