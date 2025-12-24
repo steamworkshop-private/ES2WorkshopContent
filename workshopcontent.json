@@ -326,7 +326,7 @@
     "name": "Burglar Bros",
     "imageUrl": "https://es2.rustbeard.com/images/3625333742.jpg",
     "downloadUrl": "https://es2.rustbeard.com/releases/3625333742/3625333742.zip",
-    "timestamp": 1766474076
+    "timestamp": 1766542008
   },
   {
     "id": "3623615626",
@@ -733,6 +733,13 @@
     "imageUrl": "https://es2.rustbeard.com/images/3594935021.jpg",
     "downloadUrl": "https://es2.rustbeard.com/releases/3594935021/3594935021.zip",
     "timestamp": 1761611402
+  },
+  {
+    "id": "3630033796",
+    "name": "Default Room",
+    "imageUrl": "https://es2.rustbeard.com/images/3630033796.jpg",
+    "downloadUrl": "https://es2.rustbeard.com/releases/3630033796/3630033796.zip",
+    "timestamp": 1766539954
   },
   {
     "id": "3617348757",
