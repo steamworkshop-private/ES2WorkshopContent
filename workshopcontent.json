@@ -777,6 +777,13 @@
     "timestamp": 1766864307
   },
   {
+    "id": "3636386348",
+    "name": "Default Room",
+    "imageUrl": "https://es2.rustbeard.com/images/3636386348.jpg",
+    "downloadUrl": "https://es2.rustbeard.com/releases/3636386348/3636386348.zip",
+    "timestamp": 1767251233
+  },
+  {
     "id": "3617348757",
     "name": "Default Room Test",
     "imageUrl": "https://es2.rustbeard.com/images/3617348757.jpg",
@@ -1789,7 +1796,7 @@
     "name": "Nostalgic Christmas",
     "imageUrl": "https://es2.rustbeard.com/images/3630824244.jpg",
     "downloadUrl": "https://es2.rustbeard.com/releases/3630824244/3630824244.zip",
-    "timestamp": 1767247942
+    "timestamp": 1767252865
   },
   {
     "id": "3603584290",
