@@ -452,7 +452,7 @@
     "name": "Checkmate Inn",
     "imageUrl": "https://es2.rustbeard.com/images/3607379010.jpg",
     "downloadUrl": "https://es2.rustbeard.com/releases/3607379010/3607379010.zip",
-    "timestamp": 1766378684
+    "timestamp": 1767542770
   },
   {
     "id": "3603560302",
@@ -1020,6 +1020,13 @@
     "imageUrl": "https://es2.rustbeard.com/images/3637015282.jpg",
     "downloadUrl": "https://es2.rustbeard.com/releases/3637015282/3637015282.zip",
     "timestamp": 1767312681
+  },
+  {
+    "id": "3639210937",
+    "name": "Dracula Room",
+    "imageUrl": "https://es2.rustbeard.com/images/3639210937.jpg",
+    "downloadUrl": "https://es2.rustbeard.com/releases/3639210937/3639210937.zip",
+    "timestamp": 1767543750
   },
   {
     "id": "3603002072",
