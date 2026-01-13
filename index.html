@@ -1,0 +1,385 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ES2 Workshop Gallery</title>
+    <link rel="icon" type="image/png" href="https://pinestudio.com/wp-content/uploads/2024/12/es2_store_capsule_vertical.png">
+    <script src="https://cdn.jsdelivr.net/npm/fuse.js@6.6.2"></script>
+    <style>
+        :root { 
+            --bg-dark: #0b0e14; 
+            --header-bg: #11161f;
+            --text-main: #e0e6ed; 
+            --card-bg: #1a222d; 
+            --accent-gold: #f4c054; 
+            --accent-blue: #66c0f4; 
+            --border: rgba(255, 255, 255, 0.08);
+            --danger: #ff4d4d;
+        }
+
+        body { 
+            font-family: 'Segoe UI', Roboto, Helvetica, Arial, sans-serif; 
+            background: var(--bg-dark); 
+            color: var(--text-main); 
+            margin: 0; 
+            overflow-y: scroll;
+        }
+
+        /* Floating Language Dock */
+        .lang-dock {
+            position: absolute;
+            top: 15px;
+            right: 25px;
+            z-index: 1100;
+        }
+        
+        #langSelect {
+            background: #242e3a;
+            color: var(--accent-gold);
+            border: 1px solid var(--accent-gold);
+            padding: 5px 10px;
+            font-weight: bold;
+            border-radius: 4px;
+            cursor: pointer;
+        }
+
+        .page-banner {
+            text-align: center;
+            padding: 20px 20px;
+            background: linear-gradient(to bottom, #1a222d, #0b0e14);
+            border-bottom: 1px solid var(--border);
+        }
+
+        .page-banner img {
+            max-width: 800px;
+            width: 100%;
+            height: auto;
+            border-radius: 8px;
+            box-shadow: 0 0 30px rgba(0,0,0,0.5);
+        }
+
+        header { 
+            position: sticky; top: 0; 
+            background: var(--header-bg); 
+            padding: 1.2rem; 
+            display: flex; flex-wrap: wrap; gap: 15px; 
+            z-index: 1000; 
+            box-shadow: 0 8px 32px rgba(0,0,0,0.6);
+            align-items: center; justify-content: space-between;
+            border-bottom: 1px solid var(--border);
+        }
+
+        .header-section { display: flex; align-items: center; gap: 12px; }
+        #search { flex: 2; min-width: 180px; }
+        
+        input, select { 
+            padding: 10px; border-radius: 6px; border: 1px solid var(--border); 
+            background: #242e3a; color: white; outline: none;
+        }
+
+        .btn {
+            padding: 8px 14px; border-radius: 6px; border: none; cursor: pointer;
+            font-weight: 600; font-size: 0.8rem; transition: 0.2s; display: flex; align-items: center; gap: 6px;
+        }
+        .btn-gold { background: var(--accent-gold); color: #000; }
+        .btn-gold:hover { background: #e0b04a; }
+        .btn-gold:disabled { background: #444; color: #888; cursor: not-allowed; }
+        
+        .btn-outline { background: transparent; color: var(--accent-gold); border: 1px solid var(--accent-gold); }
+        .btn-danger { background: transparent; color: var(--danger); border: 1px solid var(--danger); }
+
+        .counter-container {
+            display: flex; align-items: center; gap: 10px;
+            background: rgba(244, 192, 84, 0.1);
+            padding: 6px 14px; border-radius: 20px;
+        }
+        .counter { font-size: 0.9rem; font-weight: 600; color: var(--accent-gold); white-space: nowrap; }
+
+        .spinner {
+            width: 14px; height: 14px;
+            border: 2px solid rgba(244, 192, 84, 0.3);
+            border-top: 2px solid var(--accent-gold);
+            border-radius: 50%;
+            animation: spin 0.8s linear infinite;
+        }
+        @keyframes spin { 0% { transform: rotate(0deg); } 100% { transform: rotate(360deg); } }
+        .spinner.hidden, .hidden { display: none !important; }
+
+        .gallery { 
+            display: grid; grid-template-columns: repeat(auto-fill, minmax(300px, 1fr)); 
+            gap: 24px; padding: 24px; min-height: 100vh;
+        }
+
+        .card { 
+            background: var(--card-bg); border-radius: 10px; overflow: hidden; 
+            display: flex; flex-direction: column; 
+            border: 1px solid var(--border);
+            transition: opacity 0.4s ease, transform 0.4s ease;
+            opacity: 0; transform: translateY(15px);
+            position: relative;
+        }
+        .card.ready { opacity: 1; transform: translateY(0); }
+        .card:hover { border-color: var(--accent-blue); }
+        .card.selected { border-color: var(--accent-gold); box-shadow: 0 0 15px rgba(244, 192, 84, 0.2); }
+        .card.hidden { display: none !important; }
+
+        .card-checkbox {
+            position: absolute; top: 12px; left: 12px;
+            width: 22px; height: 22px; z-index: 5;
+            cursor: pointer; accent-color: var(--accent-gold);
+        }
+
+        .card img { width: 100%; aspect-ratio: 16/9; object-fit: cover; background: #000; opacity: 0; transition: opacity 0.5s; }
+        .card img.loaded { opacity: 1; }
+
+        .card-info { padding: 18px; flex-grow: 1; display: flex; flex-direction: column; }
+        .card-title { font-weight: 700; font-size: 1.05rem; margin-bottom: 10px; color: var(--accent-blue); height: 2.8em; overflow: hidden; }
+        .card-meta { font-size: 0.85rem; opacity: 0.7; margin-bottom: 4px; }
+        
+        .card-footer { margin-top: auto; padding-top: 15px; border-top: 1px solid var(--border); display: flex; justify-content: space-between; align-items: center; }
+        .dl-single { color: var(--accent-gold); text-decoration: none; font-size: 0.8rem; font-weight: bold; }
+
+        .filter-control { display: flex; align-items: center; gap: 8px; font-size: 0.85rem; color: #fff; cursor: pointer; }
+    </style>
+</head>
+<body>
+
+<div class="lang-dock">
+    <select id="langSelect">
+        <option value="en">🇺🇸 English</option>
+        <option value="uk">🇺🇦 Українська</option>
+        <option value="ru">🇷🇺 Русский</option>
+        <option value="zh">🇨🇳 简体中文</option>
+        <option value="es">🇪🇸 Español</option>
+        <option value="fr">🇫🇷 Français</option>
+        <option value="de">🇩🇪 Deutsch</option>
+        <option value="ja">🇯🇵 日本語</option>
+        <option value="hr">🇭🇷 Hrvatski</option>
+    </select>
+</div>
+
+<div class="page-banner">
+    <h1>ESCAPE SIMULATOR 2 WORKSHOP</h1>
+</div>
+
+<header>
+    <input type="text" id="search" placeholder="...">
+    
+    <div class="counter-container">
+        <span class="spinner" id="hashSpinner"></span>
+        <span class="counter" id="itemCounter">...</span>
+    </div>
+
+    <div class="header-section">
+        <button class="btn btn-outline" id="btnSelectAll"></button>
+        <button class="btn btn-outline" id="btnSelectNone"></button>
+        <button class="btn btn-gold" id="btnDownloadSelected" disabled>
+            <span id="txtDownload"></span> (<span id="selectedCount">0</span>)
+        </button>
+        <button class="btn btn-danger hidden" id="btnCancelDownloads"></button>
+    </div>
+
+    <div class="header-section">
+        <select id="sort">
+            <option value="newest" id="optNewest" selected></option>
+            <option value="oldest" id="optOldest"></option>
+            <option value="name" id="optName"></option>
+        </select>
+        <label class="filter-control">
+            <input type="checkbox" id="filterBlacklist" checked> <span id="txtFilter"></span>
+        </label>
+    </div>
+</header>
+
+<div class="gallery" id="gallery"></div>
+
+<script>
+    const DATA_URL = 'https://raw.githubusercontent.com/steamworkshop-private/ES2WorkshopContent/main/workshopcontent.json';
+    const TRANSLATIONS = {
+        en: { search: "Search Items...", selectAll: "Select All", clearSelection: "Clear", download: "Download", newest: "Newest", oldest: "Oldest", az: "A-Z", filter: "Filter Default Maps", maps: "Maps", id: "ID", updated: "Updated", dl: "⬇ DOWNLOAD", cancel: "Cancel" },
+        uk: { search: "Пошук...", selectAll: "Вибрати все", clearSelection: "Очистити", download: "Завантажити", newest: "Найновіші", oldest: "Найстаріші", az: "А-Я", filter: "Фільтр стандартних мап", maps: "Мап", id: "ID", updated: "Оновлено", dl: "⬇ ЗАВАНТАЖИТИ", cancel: "Скасувати" },
+        ru: { search: "Поиск...", selectAll: "Выбрать все", clearSelection: "Очистить", download: "Скачать", newest: "Новейшие", oldest: "Старейшие", az: "А-Я", filter: "Фильтр стандартных карт", maps: "Карт", id: "ID", updated: "Обновлено", dl: "⬇ СКАЧАТЬ", cancel: "Отмена" },
+        zh: { search: "搜索项目...", selectAll: "全选", clearSelection: "清空", download: "下载", newest: "最新", oldest: "最早", az: "A-Z", filter: "过滤默认地图", maps: "地图", id: "ID", updated: "更新时间", dl: "⬇ 下载", cancel: "取消" },
+        es: { search: "Buscar...", selectAll: "Seleccionar todo", clearSelection: "Borrar", download: "Descargar", newest: "Más nuevo", oldest: "Más antiguo", az: "A-Z", filter: "Filtrar mapas predeterminados", maps: "Mapas", id: "ID", updated: "Actualizado", dl: "⬇ DESCARGAR", cancel: "Cancelar" },
+        fr: { search: "Rechercher...", selectAll: "Tout sélectionner", clearSelection: "Effacer", download: "Télécharger", newest: "Le plus récent", oldest: "Le plus ancien", az: "A-Z", filter: "Filtrer les cartes par défaut", maps: "Cartes", id: "ID", updated: "Mis à jour", dl: "⬇ TÉLÉCHARGER", cancel: "Annuler" },
+        de: { search: "Suchen...", selectAll: "Alles auswählen", clearSelection: "Leeren", download: "Download", newest: "Neueste", oldest: "Älteste", az: "A-Z", filter: "Standardkarten filtern", maps: "Karten", id: "ID", updated: "Aktualisiert", dl: "⬇ DOWNLOAD", cancel: "Abbrechen" },
+        ja: { search: "検索...", selectAll: "すべて選択", clearSelection: "クリア", download: "ダウンロード", newest: "新着", oldest: "古い順", az: "A-Z", filter: "デフォルトマップをフィルター", maps: "マップ", id: "ID", updated: "更新日", dl: "⬇ ダウンロード", cancel: "キャンセル" },
+        hr: { search: "Pretraži...", selectAll: "Odaberi sve", clearSelection: "Očisti", download: "Preuzmi", newest: "Najnovije", oldest: "Najstarije", az: "A-Z", filter: "Filtriraj zadane mape", maps: "Mape", id: "ID", updated: "Ažurirano", dl: "⬇ PREUZMI", cancel: "Odustani" }
+    };
+
+    const HASH_BLACKLIST = ["92390cbdc9bacd0ae66073a7bc3fafd2d9c7f784480d5700d5092aa2b0f91ec1", "e31dcd412892c84a31bc2d3d47b4580f77579cb0fdbcf035c6df02026382e3dc", "21388cc4a9ff1a3a31fe47ddd6a18664a1edbdaf8921f77373cb610b8c3baef5", "b1dcd4f27b2f59f766a63b939349b74ade28f737dde87bf708907d449b1be702", "f4a315bd8ffb37b0ec6341d70e9f09607eb7f6143e10770911689527afdeaaf1", "5aa45cc61d322c61432fe66800cfffb632feee9b9819e436d3f59a76909f67e2"];
+    const KEYWORD_BLACKLIST = ["placeholder", "test", "demo", "Achievement", "AchievmentRoom", "empty", "editor", "Dracula Room", "Space Room", "Pirate Room", "Default Room"];
+
+    let allData = [], fuse, selectedUrls = new Set(), currentLang = localStorage.getItem('es2_lang') || 'en', knownHashes = {}, isCancelling = false;
+
+    function t(key) { return TRANSLATIONS[currentLang] ? (TRANSLATIONS[currentLang][key] || TRANSLATIONS['en'][key]) : TRANSLATIONS['en'][key]; }
+
+    function applyUILanguage() {
+        document.getElementById('search').placeholder = t('search');
+        document.getElementById('btnSelectAll').innerText = t('selectAll');
+        document.getElementById('btnSelectNone').innerText = t('clearSelection');
+        document.getElementById('txtDownload').innerText = t('download');
+        document.getElementById('optNewest').innerText = t('newest');
+        document.getElementById('optOldest').innerText = t('oldest');
+        document.getElementById('optName').innerText = t('az');
+        document.getElementById('txtFilter').innerText = t('filter');
+        document.getElementById('btnCancelDownloads').innerText = t('cancel');
+        updateCounter();
+        updateSelectionUI(); // Ensure count display matches lang
+    }
+
+    async function getFileHash(url) {
+        if (knownHashes[url]) return knownHashes[url];
+        try {
+            const res = await fetch(url);
+            const buf = await res.arrayBuffer();
+            const hashBuf = await crypto.subtle.digest('SHA-256', buf);
+            const hash = Array.from(new Uint8Array(hashBuf)).map(b => b.toString(16).padStart(2, '0')).join('');
+            knownHashes[url] = hash;
+            return hash;
+        } catch (e) { return null; }
+    }
+
+    const observer = new IntersectionObserver((entries) => {
+        entries.forEach(entry => {
+            if (entry.isIntersecting) {
+                const img = entry.target, card = img.closest('.card');
+                if (!img.src || img.src.startsWith('data:')) {
+                    img.src = img.dataset.src;
+                    img.onload = () => { img.classList.add('loaded'); card.classList.add('ready'); };
+                }
+                observer.unobserve(img);
+            }
+        });
+    }, { rootMargin: '800px 0px' });
+
+    async function processAllHashes() {
+        const cards = document.querySelectorAll('.card'), spinner = document.getElementById('hashSpinner');
+        spinner.classList.remove('hidden');
+        for (let card of cards) {
+            const img = card.querySelector('img'), fileHash = await getFileHash(img.dataset.src);
+            card.dataset.hash = fileHash;
+            updateCardState(card, img);
+        }
+        spinner.classList.add('hidden');
+    }
+
+    function updateCardState(card, img) {
+        const filterOn = document.getElementById('filterBlacklist').checked;
+        const isBad = HASH_BLACKLIST.includes(card.dataset.hash) || card.dataset.hasBadKeyword === "true";
+        if (filterOn && isBad) {
+            card.classList.add('hidden');
+            const cb = card.querySelector('.card-checkbox');
+            if (cb.checked) { cb.checked = false; toggleSelection(card, false); }
+        } else {
+            card.classList.remove('hidden');
+            if (img && (!img.src || img.src.startsWith('data:'))) {
+                img.src = img.dataset.src;
+                img.onload = () => { img.classList.add('loaded'); card.classList.add('ready'); };
+            } else card.classList.add('ready');
+        }
+        updateCounter();
+    }
+
+    function updateCounter() {
+        const visible = document.querySelectorAll('.card:not(.hidden)').length;
+        document.getElementById('itemCounter').innerText = `${visible} / ${allData.length} ${t('maps') || 'Maps'}`;
+    }
+
+    function toggleSelection(card, isSelected) {
+        const url = card.dataset.downloadUrl;
+        isSelected ? (card.classList.add('selected'), selectedUrls.add(url)) : (card.classList.remove('selected'), selectedUrls.delete(url));
+        updateSelectionUI();
+    }
+
+    function updateSelectionUI() {
+        const count = selectedUrls.size;
+        document.getElementById('selectedCount').innerText = count;
+        document.getElementById('btnDownloadSelected').disabled = count === 0;
+    }
+
+    async function init() {
+        document.getElementById('langSelect').value = currentLang;
+        applyUILanguage();
+        try {
+            const res = await fetch(DATA_URL);
+            allData = await res.json();
+            fuse = new Fuse(allData, { keys: ['name', 'id'], threshold: 0.3 });
+            render(sortData(allData));
+            processAllHashes();
+        } catch (e) { document.getElementById('gallery').innerText = "Sync failed."; }
+    }
+
+    function render(data) {
+        const gallery = document.getElementById('gallery'), filterOn = document.getElementById('filterBlacklist').checked;
+        selectedUrls.clear();
+        gallery.innerHTML = data.map(item => {
+            const isNameBad = KEYWORD_BLACKLIST.some(kw => item.name.toLowerCase().includes(kw.toLowerCase()));
+            const cachedHash = knownHashes[item.imageUrl] || "";
+            const isBad = isNameBad || HASH_BLACKLIST.includes(cachedHash);
+            return `
+                <div class="card ${(filterOn && isBad) ? 'hidden' : ''}" data-download-url="${item.downloadUrl}" data-has-bad-keyword="${isNameBad}" data-hash="${cachedHash}" data-id="${item.id}" data-name="${item.name.replace(/"/g, '&quot;')}">
+                    <input type="checkbox" class="card-checkbox">
+                    <img data-src="${item.imageUrl}" src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" class="lazy-img">
+                    <div class="card-info">
+                        <div class="card-title">${item.name}</div>
+                        <div class="card-meta"><b>${t('id')}:</b> ${item.id}</div>
+                        <div class="card-meta"><b>${t('updated')}:</b> ${new Date(item.timestamp * 1000).toLocaleDateString(currentLang)}</div>
+                        <div class="card-footer"><a href="${item.downloadUrl}" class="dl-single" download>${t('dl')}</a></div>
+                    </div>
+                </div>`;
+        }).join('');
+        document.querySelectorAll('.lazy-img').forEach(img => observer.observe(img));
+        document.querySelectorAll('.card-checkbox').forEach(cb => cb.addEventListener('change', (e) => toggleSelection(e.target.closest('.card'), e.target.checked)));
+        updateCounter();
+        updateSelectionUI();
+    }
+
+    function sortData(data) {
+        const val = document.getElementById('sort').value;
+        return [...data].sort((a, b) => val === 'newest' ? b.timestamp - a.timestamp : val === 'oldest' ? a.timestamp - b.timestamp : (a.name || "").localeCompare(b.name || ""));
+    }
+
+    document.getElementById('langSelect').addEventListener('change', (e) => {
+        currentLang = e.target.value; localStorage.setItem('es2_lang', currentLang);
+        applyUILanguage(); 
+        const query = document.getElementById('search').value;
+        render(sortData(query ? fuse.search(query).map(r => r.item) : allData));
+    });
+
+    document.getElementById('btnSelectAll').addEventListener('click', () => {
+        document.querySelectorAll('.card:not(.hidden)').forEach(card => { 
+            const cb = card.querySelector('.card-checkbox'); 
+            if (!cb.checked) { cb.checked = true; toggleSelection(card, true); } 
+        });
+    });
+
+    document.getElementById('btnSelectNone').addEventListener('click', () => { 
+        document.querySelectorAll('.card-checkbox').forEach(cb => cb.checked = false); 
+        document.querySelectorAll('.card.selected').forEach(c => c.classList.remove('selected')); 
+        selectedUrls.clear(); 
+        updateSelectionUI(); // FIXED: Explicitly reset UI and disable button
+    });
+
+    document.getElementById('btnDownloadSelected').addEventListener('click', async () => {
+        const urls = Array.from(selectedUrls), cancelBtn = document.getElementById('btnCancelDownloads');
+        isCancelling = false; cancelBtn.classList.remove('hidden');
+        for (const url of urls) {
+            if (isCancelling) break;
+            const link = document.createElement('a'); link.href = url; link.setAttribute('download', '');
+            document.body.appendChild(link); link.click(); document.body.removeChild(link);
+            await new Promise(r => setTimeout(r, 400));
+        }
+        cancelBtn.classList.add('hidden');
+    });
+
+    document.getElementById('btnCancelDownloads').addEventListener('click', () => isCancelling = true);
+    document.getElementById('filterBlacklist').addEventListener('change', () => document.querySelectorAll('.card').forEach(card => updateCardState(card, card.querySelector('img'))));
+    document.getElementById('search').addEventListener('input', (e) => render(sortData(e.target.value ? fuse.search(e.target.value).map(r => r.item) : allData)));
+    document.getElementById('sort').addEventListener('change', () => render(sortData(document.getElementById('search').value ? fuse.search(document.getElementById('search').value).map(r => r.item) : allData)));
+
+    init();
+</script>
+</body>
+</html>
